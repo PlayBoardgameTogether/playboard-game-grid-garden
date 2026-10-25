@@ -1,0 +1,23 @@
+{
+  "name": "playboard-game-grid-garden",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.15.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run tests/unit",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "build": "pnpm -r --if-present build",
+    "verify": "node --conditions=production scripts/release-builtin.mjs"
+  },
+  "devDependencies": {
+    "@boardgame/grid-garden": "workspace:*",
+    "@boardgame/game-sdk": "workspace:*",
+    "@types/node": "22.18.1",
+    "vitest": "3.2.4",
+    "typescript": "5.9.2"
+  }
+}

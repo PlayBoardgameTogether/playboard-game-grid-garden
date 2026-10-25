@@ -1,0 +1,11 @@
+{
+  "repository": "PlayBoardgameTogether/playboard-game-grid-garden",
+  "key": "grid-garden",
+  "package": "@boardgame/grid-garden",
+  "assets": [
+    {
+      "id": "grid-garden",
+      "archive": "grid-garden"
+    }
+  ]
+}

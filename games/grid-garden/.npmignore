@@ -1,0 +1,8 @@
+**
+!package.json
+!src/
+!src/**
+!dist/
+!dist/**
+!build.mjs
+!tsconfig*.json
