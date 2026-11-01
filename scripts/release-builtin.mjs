@@ -11,10 +11,11 @@ const packageJson = JSON.parse(
   await readFile(new URL(`games/${config.key}/package.json`, root), 'utf8'),
 );
 const { manifest } = await import(new URL(`games/${config.key}/dist/shared/index.js`, root));
-assert.equal(manifest.version, packageJson.version);
+// Client package releases can advance without changing the locked rules.
+assert.match(packageJson.version, /^\d+\.\d+\.\d+$/);
 assert.equal(manifest.id, config.assets[0].id);
 assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
-const tag = `${config.key}-v${manifest.version}`;
+const tag = `${config.key}-v${packageJson.version}`;
 if (process.env.GITHUB_REF_TYPE === 'tag') assert.equal(process.env.GITHUB_REF_NAME, tag);
 const output = new URL('dist/release/', root);
 await mkdir(output, { recursive: true });
@@ -48,7 +49,8 @@ await writeFile(
       sdkVersion: origin.sdkVersion,
       format: 'builtin-npm-package',
       gameId: manifest.id,
-      version: manifest.version,
+      version: packageJson.version,
+      gameVersion: manifest.version,
       filename,
       sha256,
       tag,
