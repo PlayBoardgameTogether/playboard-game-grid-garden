@@ -1,0 +1,13 @@
+{
+  "role": "game-avatar",
+  "source": "icon-source.png",
+  "sourceSha256": "cf79c5f7c7297ee7516c770299a596a729b13c6ba96cc6e07e4b22d3244abe88",
+  "userSelected": true,
+  "export": "games/grid-garden/art/icon.png",
+  "size": [
+    512,
+    512
+  ],
+  "fit": "contain",
+  "backgroundUsage": false
+}
