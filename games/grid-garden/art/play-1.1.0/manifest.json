@@ -1,0 +1,29 @@
+{
+  "version": "1.1.0",
+  "kind": "presentation-art",
+  "game": "grid-garden",
+  "ruleVersionUnchanged": true,
+  "assets": [
+    {
+      "role": "icon",
+      "file": "icon.png",
+      "sha256": "ca0683196c31299636b7fffce4a3e4b689629de547a4e75439d85cf566847746",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "role": "cover",
+      "file": "cover.png",
+      "sha256": "8304e2e35abc4d6067568cc6da33219a3e7aa26da175515e14c832c7d04afa01",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "role": "background",
+      "file": "background.png",
+      "sha256": "2cd5fbb6c6270587328c329940a0cabeed9e5e9fb831d20ed207a716e44e3ceb",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "1.1.0",
+  "kind": "presentation-art",
+  "generator": "built-in image_gen",
+  "license": "GPL-3.0-only",
+  "rulesChanged": false,
+  "assets": [
+    {
+      "game": "grid-garden",
+      "role": "icon",
+      "prompt": "Use case: stylized-concept. NEW original artwork for a premium PlayBoard board game platform. Sophisticated richly detailed fine PIXEL ART, visible tiny square pixel clusters, tactile physical board game pieces, refined material textures, soft daylight, restrained highlights and natural shadows, mature inviting mood, clear readable silhouette. Coordinated natural wood and dark navy with theme-specific colors. No UI, no paragraphs, no title, no brand logo, no watermark, no border. Avoid generic flat vector, blurry painterly style, glossy casino, low detail cartoon. Asset: square 1024x1024 game avatar. Close-up central iconic arrangement of the main game objects, all important edges visible, 8% breathing room, instantly recognizable even at 64px. Subject: an inviting orchard garden board game, square garden plots, domino garden tiles, small flower and fruit tokens, wooden tools, leafy greens and soft coral blossoms.",
+      "original": "design/play-art-1.1.0/grid-garden/icon-original.png",
+      "source": "games/grid-garden/art/play-1.1.0/icon.png",
+      "originalSha256": "4f24925ce883ed6148f7334ab1023f2043dd52eb83726103695ea7bed2d18342",
+      "sourceSha256": "ca0683196c31299636b7fffce4a3e4b689629de547a4e75439d85cf566847746",
+      "webp": "grid-garden-icon.webp",
+      "webpSha256": "18b946abba216e1c5cc3c54ae04b16f4b81219895d344f0692df16416f99f733",
+      "width": 512,
+      "height": 512,
+      "bytes": 136702
+    },
+    {
+      "game": "grid-garden",
+      "role": "cover",
+      "prompt": "Use case: stylized-concept. NEW original artwork for a premium PlayBoard board game platform. Sophisticated richly detailed fine PIXEL ART, visible tiny square pixel clusters, tactile physical board game pieces, refined material textures, soft daylight, restrained highlights and natural shadows, mature inviting mood, clear readable silhouette. Coordinated natural wood and dark navy with theme-specific colors. No UI, no paragraphs, no title, no brand logo, no watermark, no border. Avoid generic flat vector, blurry painterly style, glossy casino, low detail cartoon. Asset: landscape 16:10 game cover illustration. Compelling low three-quarter close view across the playable board and pieces, a small scene that makes the viewer want to sit down and play, strong foreground focal point, room to crop safely. Subject: an inviting orchard garden board game, square garden plots, domino garden tiles, small flower and fruit tokens, wooden tools, leafy greens and soft coral blossoms.",
+      "original": "design/play-art-1.1.0/grid-garden/cover-original.png",
+      "source": "games/grid-garden/art/play-1.1.0/cover.png",
+      "originalSha256": "550a847764a55f22c17ea939cfc9d85010783f6d2c54af952ade1dccb7092fe8",
+      "sourceSha256": "8304e2e35abc4d6067568cc6da33219a3e7aa26da175515e14c832c7d04afa01",
+      "webp": "grid-garden-cover.webp",
+      "webpSha256": "b935fe1ac9abccd65bd5abba7bd582d4396e92af1cd5a508fb141910966f9df5",
+      "width": 960,
+      "height": 600,
+      "bytes": 271800
+    },
+    {
+      "game": "grid-garden",
+      "role": "background",
+      "prompt": "Use case: stylized-concept. NEW original artwork for a premium PlayBoard board game platform. Sophisticated richly detailed fine PIXEL ART, visible tiny square pixel clusters, tactile physical board game pieces, refined material textures, soft daylight, restrained highlights and natural shadows, mature inviting mood, clear readable silhouette. Coordinated natural wood and dark navy with theme-specific colors. No UI, no paragraphs, no title, no brand logo, no watermark, no border. Avoid generic flat vector, blurry painterly style, glossy casino, low detail cartoon. Asset: wide 16:9 immersive background original art. Rich thematic environment extending around a softly lit tabletop in the foreground, detailed atmosphere at the edges, calm low contrast central area suitable behind game UI, no embedded interface. Subject: an inviting orchard garden board game, square garden plots, domino garden tiles, small flower and fruit tokens, wooden tools, leafy greens and soft coral blossoms.",
+      "original": "design/play-art-1.1.0/grid-garden/background-original.png",
+      "source": "games/grid-garden/art/play-1.1.0/background.png",
+      "originalSha256": "e1d8d5027f94725b0d1893ad078f218c3492bc60e927fc97483a4f5870bf4897",
+      "sourceSha256": "2cd5fbb6c6270587328c329940a0cabeed9e5e9fb831d20ed207a716e44e3ceb",
+      "webp": "grid-garden-background.webp",
+      "webpSha256": "a2f0be452c67e5fc7639641e01bac58242cfb71bc7f5d4edad36c9ed8abc30a7",
+      "width": 1280,
+      "height": 720,
+      "bytes": 387984
+    }
+  ]
+}
